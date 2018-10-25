@@ -28,13 +28,13 @@ $f_{10d}^{\prime} = [2x_0+x_1, 2x_1+x_0, 2x_2+x_3, 2x_3+x_2, 2x_4+x_5, 2x_5+x_4,
 
 $x_{opt} = (0,0,0,0,0,0,0,0,0,0), f_{opt} = 0$
 
-
-
 #### Problem 1. conjugate_gradients
 
 **Average line search & CG restart iteration**
 
 ![image-20181017161118549](/Users/liushijing/Library/Application Support/typora-user-images/image-20181017161118549.png)
+
+The average line search method is not helpful as we can concluded from above, and as CG inner iteration grows, the errors become bigger.
 
 #### Problem 2. Comparing with steepest descent
 
