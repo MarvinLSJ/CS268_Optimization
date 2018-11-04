@@ -1,6 +1,3 @@
-# 机器学习-如何在github上写数学公式
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
-
 ## Optimization Introduction
 
 近几年优化方法因机器学习变得流行起来，从随机梯度下降，BFGS到adam，大多数机器学习问题能被抽象化为优化问题。所以想要真正理解机器学习算法，熟悉各类优化算法是如何找到最优解，以及面对各类优化问题我们应该如何选择是非常重要的。因此我将在UCI Optimization课程中所学到的东西记录下来，用于加深理论理解，同时也分享给同样感兴趣的人。
