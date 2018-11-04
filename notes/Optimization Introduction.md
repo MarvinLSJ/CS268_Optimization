@@ -1,13 +1,3 @@
----
-title: Optimization Introduction
-date: 2018-11-03 12:10:11
-categories:
-- 理论基础
-tags: 
-- Optimization
-- CS268
----
-
 
 ## Optimization Introduction
 
