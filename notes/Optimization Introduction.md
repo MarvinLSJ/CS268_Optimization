@@ -261,6 +261,20 @@ Properties of convex function:
 
 
 
+## Necessary & Sufficient Condition for Optimality
+
+**Necessary Condition** for $x^\star$ to be a local minimum is: $$\nabla f(\bold{x}^\star)=0$$
+
+It's call a stationary point（驻点）, it can be a minimum or maximum, or a saddle point（鞍点）.
+
+<br/>
+
+**Sufficient Condition** for $x^\star$ to be a strict local minimum are: $$\nabla f(\bold{x}^\star)=0$$, $$\nabla^2f(\bold{x}^\star)$$ is positive definite.  
+
+The Hessian of f is positive definite means it's convex on its domain, in this condition, the stationary point must the the global minimum.
+
+
+
 ## Optimization Methods
 
 According to **problem types**, we can roughly separate optimization methods into:   
@@ -276,5 +290,19 @@ $C^0$ input: Only know the $f(x)$ itself;
 $C^1$ input: know $f(x)$ and $df(x)$ ;
 
 $C^2$ input: know  $f(x), df(x)$ and $d^2f(x)$ ;
+
+<br/>
+
+## Optimization Algorithms Implementaion Links
+
+I've implemented several optimization methods mentioned in this series, there are detailed hyperparameter settings, stopping criterion choices, test functions and experiments, all in jupyter notebook on my github, links are as follows:  
+
+[Golden Section & Coordinate Descent](https://github.com/MarvinLSJ/CS268_Optimization/blob/master/hw1/hw1.ipynb)  
+
+[Steepest Descent & Conjugate Gradient](https://github.com/MarvinLSJ/CS268_Optimization/blob/master/hw2/hw2.ipynb)
+
+[Simulated Annealing](https://github.com/MarvinLSJ/CS268_Optimization/blob/master/hw3/hw3.ipynb)
+
+<br/>
 
 We will explore and implement several traditional optimization methods to get a deeper view in the following essays.
